@@ -1,7 +1,10 @@
 package abstractFactory.garden;
 
+import abstractFactory.garden.flower.AbstractFlower;
+import abstractFactory.garden.tree.AbstractTree;
+
 public abstract class AbstractGardenCreator {
 
-    public abstract void createTree();
-    public abstract void createFlower();
+    public abstract AbstractTree createTree();
+    public abstract AbstractFlower createFlower();
 }
